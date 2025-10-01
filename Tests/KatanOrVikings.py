@@ -1,0 +1,1 @@
+import random; print(f"Play {max(set(draws := [random.choice(['Katan', 'Vikigs']) for _ in range(500)]), key=draws.count)}")
